@@ -13,11 +13,11 @@ public class MyH2Admin {
 							"-webAllowOthers",
 							"-webPort","8082");
 			serverWeb.start();
-			System.
-			out.println("Serveur web pour H2-console démarré.");
+			System.out.println("Serveur web pour H2-console démarré.");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
-
 }
+
+
